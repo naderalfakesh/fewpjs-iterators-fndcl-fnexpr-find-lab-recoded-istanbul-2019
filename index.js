@@ -5,6 +5,6 @@ function testFunc() {
 }
 
 function superbowlWin(arr){
-    const res =  arr.find(function(element){return element.result === "W" });
+    const res =  arr.find(function(element){return element["result"] === "W" });
     res != undefined ? res["year"] : res;
 }
