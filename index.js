@@ -5,5 +5,5 @@ function testFunc() {
 }
 
 function superbowlWin(arr){
-    return arr.find(function(element){return element.result === "W" })
+    return arr.find(function(element){return element.result === "W" }).year;
 }
